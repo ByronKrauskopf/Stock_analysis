@@ -12,9 +12,9 @@ The purpose of this project is to provide Steve with an effective and efficient 
 
 Comparing the results of the stock performance analysis shown below, it is recommended that Steve invest in the stock with ticker ENPH as this stock had strong performance in both years with an overall average return of 105.72%. If diversification is needed then the only other stock that demonstrated positive returns in both years is the one with the ticker RUN which had an overall average return of 44.75%.
 
-![Original script 2017 analysis] (./Original_script_2017_analysis.PNG)
+![Original script 2017 analysis](./Original_script_2017_analysis.PNG)
 
-![Original script 2018 analysis] (./Original_script_2018_analysis.PNG)
+![Original script 2018 analysis](./Original_script_2018_analysis.PNG)
 
 ### Code performance
 
@@ -29,5 +29,7 @@ A comparison of the runtime results for both blocks of code is summarized in the
 |---|---|---|
 |Original|1.015625 seconds|0.9960938 seconds|
 |Refactored|0.1054688 seconds|0.1054688 seconds|
+
+As can be seen the refactored code runs nearly 10 times faster then the original script and so is clearly the most efficent for Steve to use going forward.
 
 ## Summary
