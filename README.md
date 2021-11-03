@@ -30,11 +30,13 @@ A comparison of the runtime results for both blocks of code is summarized in the
 |Original|1.015625 seconds|0.9960938 seconds|
 |Refactored|0.1054688 seconds|0.1054688 seconds|
 
-As can be seen the refactored code runs nearly 10 times faster then the original script and so is clearly the most efficent for Steve to use going forward. This efficency comes from the fact that the refactored code does away with nested loops. In the original script the code used nested loops to run through the full rowCount (j) while calculating the values for each ticker (i) and then writing the results in the ouptut cells before restarting the loop again.
+As can be seen the refactored code runs nearly 10 times faster then the original script and so is clearly the most efficent for Steve to use going forward. This efficency comes from the fact that the refactored code does away with nested loops. In the original script the code used nested loops to run through the full rowCount (j) while calculating the values for each ticker (i) and then writing that ticker's results in the output cells before restarting the loop again for the next ticker.
 
 ![Original script code snip](./Original_script_code_snip.PNG)
 
-The refactored code does away with the nested loop 
+The refactored code does away with the nested loop by making use of an tickerIndex variable so that a single loop is used to determine the outputs for all the tickers before  a separate loop is then used to write all ticker results to the output cells. This significantly speeds up the code runtime.
+
+![Refactored_code_snip](./Refactored_code_snip.PNG)
 
 
 ## Summary
