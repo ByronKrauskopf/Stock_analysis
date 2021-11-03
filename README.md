@@ -25,6 +25,9 @@ The performance of the refactored code is clearly more efficent then the origina
 
 A comparison of the runtime results for both blocks of code is summarized in the chart below.
 
-|Code|
+|Code| 2017 | 2018 |
+|---|---|---|
+|Original|1.015625 seconds|0.9960938 seconds|
+|Refactored|0.1054688|0.1054688|
 
 ## Summary
