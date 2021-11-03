@@ -32,6 +32,9 @@ A comparison of the runtime results for both blocks of code is summarized in the
 
 As can be seen the refactored code runs nearly 10 times faster then the original script and so is clearly the most efficent for Steve to use going forward. This efficency comes from the fact that the refactored code does away with nested loops. In the original script the code used nested loops to run through the full rowCount (j) while calculating the values for each ticker (i) and then writing the results in the ouptut cells before restarting the loop again.
 
+![Original script code snip](./Original_script_code_snip.PNG)
+
+The refactored code does away with the nested loop 
 
 
 ## Summary
