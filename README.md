@@ -33,3 +33,7 @@ A comparison of the runtime results for both blocks of code is summarized in the
 As can be seen the refactored code runs nearly 10 times faster then the original script and so is clearly the most efficent for Steve to use going forward.
 
 ## Summary
+
+The practice of refactoring code has both positives and negatives. The postives are that the refactored code is often cleaner, easier to understand, and simplier to maintain. The negatives are that refactoring takes time, both in the intial rewriting of the code, and in the subsequent retesting to ensure the refactored code is functioning in the same was as the original was. For programmers time is money so there is a very real cost to refactoring. 
+
+In the specific case of this VBA Challenge analysis the pros of faster run time out weigh the cons of time spent doing the refactoring. This is because this tool has the flexibility and power to be used for multiple analyses over many years. Over a long time the effort it took to refactor the code will be dwarfed by the time saved by the faster runtimes and easier maintenance of the code. 
