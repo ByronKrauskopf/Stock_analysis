@@ -28,6 +28,6 @@ A comparison of the runtime results for both blocks of code is summarized in the
 |Code| 2017 | 2018 |
 |---|---|---|
 |Original|1.015625 seconds|0.9960938 seconds|
-|Refactored|0.1054688|0.1054688|
+|Refactored|0.1054688 seconds|0.1054688 seconds|
 
 ## Summary
