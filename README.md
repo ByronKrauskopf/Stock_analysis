@@ -4,7 +4,7 @@
 
 ### Purpose
 
-The purpose of this project is to provide Steve with an effective and efficient tool for the analysis of stocks. The results of two years of green stock performance will be analized to determine a recommendation for investment. Furthermore, refactored code will be compared to the orignally developed code to determine the best method for conducting the analysis Steve requires going forward.
+The purpose of this project is to provide Steve with an effective and efficient tool for the analysis of stocks. The results of two years of green stock performance will be analyzed to determine a recommendation for investment. Furthermore, refactored code will be compared to the originally developed code to determine the best method for conducting the analysis Steve requires going forward.
 
 ## Results
 
@@ -18,7 +18,7 @@ Comparing the results of the stock performance analysis shown below, it is recom
 
 ### Code performance
 
-The performance of the refactored code is clearly more efficent then the original script. This can be seen by comparing the run times of the respective analyses. The screenshots provided in the prior section on stock performance also display the runtime using the original script. The screenshots below provide the runtime for the same analysis performed with the refactored code. 
+The performance of the refactored code is clearly more efficient then the original script. This can be seen by comparing the run times of the respective analyses. The screenshots provided in the prior section on stock performance also display the runtime using the original script. The screenshots below provide the runtime for the same analysis performed with the refactored code. 
 
 ![Refactored 2017 analysis](./VBA_Challenge_2017.PNG)
 ![Refactored 2018 analysis](./VBA_Challenge_2018.PNG)
@@ -30,7 +30,7 @@ A comparison of the runtime results for both blocks of code is summarized in the
 |Original|1.015625 seconds|0.9960938 seconds|
 |Refactored|0.1054688 seconds|0.1054688 seconds|
 
-As can be seen the refactored code runs nearly 10 times faster then the original script and so is clearly the most efficent for Steve to use going forward. This efficency comes from the fact that the refactored code does away with nested loops. In the original script the code used nested loops to run through the full rowCount (j) while calculating the values for each ticker (i) and then writing that ticker's results in the output cells before restarting the loop again for the next ticker.
+As can be seen the refactored code runs nearly 10 times faster then the original script and so is clearly the most efficient for Steve to use going forward. This efficiency comes from the fact that the refactored code does away with nested loops. In the original script the code used nested loops to run through the full rowCount (j) while calculating the values for each ticker (i) and then writing that ticker's results in the output cells before restarting the loop again for the next ticker.
 
 ![Original script code snip](./Original_script_code_snip.png)
 
@@ -41,6 +41,6 @@ The refactored code does away with the nested loop by making use of an tickerInd
 
 ## Summary
 
-The practice of refactoring code has both positives and negatives. The postives are that the refactored code is often cleaner, easier to understand, and simplier to maintain. The negatives are that refactoring takes time, both in the intial rewriting of the code, and in the subsequent retesting to ensure the refactored code is functioning in the same was as the original was. For programmers time is money so there is a very real cost to refactoring. 
+The practice of refactoring code has both positives and negatives. The positives are that the refactored code is often cleaner, easier to understand, and simpler to maintain. The negatives are that refactoring takes time, both in the initial rewriting of the code, and in the subsequent retesting to ensure the refactored code is functioning in the same was as the original was. For programmers time is money so there is a very real cost to refactoring. 
 
 In the specific case of this VBA Challenge analysis the pros of faster run time out weigh the cons of time spent doing the refactoring. This is because this tool has the flexibility and power to be used for multiple analyses over many years. Over a long time the effort it took to refactor the code will be dwarfed by the time saved by the faster runtimes and easier maintenance of the code. 
